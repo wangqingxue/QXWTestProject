@@ -1,0 +1,6 @@
+framework module QXWTestObject {
+  umbrella header "QXWTestObject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 //
 
 #import "QXWViewController.h"
+#import <QXWTestObject/QWXTestObjectA.h>
 
 @interface QXWViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    QWXTestObjectA *testObject = [[QWXTestObjectA alloc]init];
+    [testObject logTestA];
 }
 
 - (void)didReceiveMemoryWarning
